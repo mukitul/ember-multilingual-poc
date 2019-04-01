@@ -3,6 +3,8 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'localize-poc',
+    //defaultTranslation: 'en',
+    //defaultLocale: 'en-us',
     environment,
     rootURL: '/',
     locationType: 'auto',
